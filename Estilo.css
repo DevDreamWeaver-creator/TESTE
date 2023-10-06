@@ -1,0 +1,59 @@
+body {
+    background-color: black; /* Vermelho usando código hexadecimal */
+  }
+
+h1, p{
+    color: white;
+}
+
+/* Reset de margens e padding para garantir a consistência entre navegadores */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000; /* Cor de fundo preta usando código hexadecimal */
+  color: #fff; /* Cor do texto branca */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px; /* Tamanho da fonte do título */
+  margin-bottom: 10px; /* Espaço entre o título e o parágrafo */
+}
+
+p {
+  font-size: 16px; /* Tamanho da fonte do parágrafo */
+}
+
+form {
+  text-align: center;
+  margin-top: 20px; /* Espaço superior para o formulário */
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #fff; /* Borda branca */
+  background-color: #333; /* Cor de fundo mais escura para destacar o formulário */
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Cor de fundo azul */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+}
